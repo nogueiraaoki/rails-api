@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   resources :categories
   devise_for :users,
     path: '',
